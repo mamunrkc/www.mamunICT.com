@@ -1,0 +1,457 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*header part css start */
+header{
+    background-color: #0872b9;
+    padding-top: 10px;
+    color: white;
+}
+.welcome p{
+    text-transform: capitalize;
+}
+.icon ul{
+    float: right;
+}
+.icon ul li {
+    float: left;
+    padding: 0 15px;
+}
+
+.icon ul li a{
+    color: white;
+     transition: all linear .3s;
+}
+
+.icon ul li a:hover{
+    color: black;
+    transition: all linear .3s;
+}
+/*header part css end*/
+
+/*navigation part css start */
+.navbar-nav .nav-item .nav-link{
+    color: #353535;
+    padding: 0 10px;
+}
+.navbar-nav .nav-item .nav-link.active{
+    color: #0872b9;
+}
+/*navigation part css end*/
+
+/*banner part css code start */
+
+#banner{
+  background: url(../images/Modem.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner_overlay{
+    padding: 87px 0;
+    background-color: rgba(0, 0, 0, 0.62);
+}
+
+.banner_content{
+    text-align: right;
+    color: white;
+}
+
+.banner_content h4{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+
+.banner_content h1{
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    
+}
+
+.banner_content p{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding-bottom: 20px;
+    
+}
+
+.banner_content a{
+    padding: 12px 30px;
+    border: 2px solid #ffff;
+    color: white;
+    margin-left: 20px;
+    transition: all linear .3s;
+}
+
+.banner_content a:hover{
+    background-color: #0872b9;
+    border: 2px solid #0872b9;
+    transition: all linear .3s;
+}
+/*banner part css code end*/
+
+/*about part css start */
+.common_heading h4{
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    position: relative;
+    margin-bottom: 70px;
+}
+/*.common_heading img{
+    margin-left: 47%;
+    margin-bottom: 22%;
+}*/
+
+.common_heading h4:after{
+  position: absolute;
+  content: "";
+  bottom: -15%;
+  left: 46%;
+  height: 2px;
+  width: 47px;
+  background-color: #0872b9;
+}
+
+.common_heading h4:before{
+  position: absolute;
+  content: "";
+  bottom: -15%;
+  left: 50.5%;
+  height: 2px;
+  width: 7px;
+  background-color: #0872b9;
+}
+
+
+.common_heading h4 span:after{
+  position: absolute;
+  content: "";
+  bottom: -15%;
+  left: 51.5%;
+  height: 2px;
+  width: 5px;
+  background-color: #0872b9;
+}
+
+.common_heading h4 span:before{
+  position: absolute;
+  content: "";
+  bottom: -15%;
+  left: 52.3%;
+  height: 2px;
+  width: 3px;
+  background-color: #0872b9;
+}
+
+.about_con p{
+    margin-top: 30px;
+    font-size: 13px;
+    line-height: 30px;
+}
+/*about part css end */
+
+/*service part css start */
+.ser_main{
+    position: relative;
+}
+.ser_icon_main{
+    height: 80px;
+    width: 80px;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid white;
+     transition: all linear .3s;
+    position: absolute;
+    top: -24%;
+    left: 39%;
+}
+
+.ser_icon{
+    height: 70px;
+    width: 70px;
+    background-color: #f1f1f1;
+    border: 2px solid white;
+    border-radius: 50%;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+     transition: all linear .3s;
+
+}
+.ser_con{
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 50px 21px 2px;
+    transition: all linear .3s;
+}
+.ser_con h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+
+.ser_con p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+
+}
+.ser_main:hover .ser_icon,
+.ser_main:hover .ser_icon_main{
+    background-color: #5bc5f4;
+    transition: all linear .3s;
+}
+.ser_main:hover .ser_con{
+    box-shadow: 2px 2px 10px black;
+    transition: all linear .3s;
+}
+/*service part css end */
+
+/*portfolio part css start */
+.small_img{
+    position: relative;
+    margin-bottom: 20px;
+}
+.gly_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+.gly_overlay a{
+    height: 40px;
+    width: 40px;
+    background-color: #5bc5f4;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    border-radius: 50%;
+    
+}
+
+.small_img:hover .gly_overlay{
+    transform: scale(1);
+    transition: all linear .3s;
+}
+.big_img{
+    position: relative;
+}
+.big_img:hover .gly_overlay{
+    transform: scale(1);
+     transition: all linear .3s;
+}
+/*portfolio part css end */
+
+/*team part css start */
+.team_img{
+    position: relative;
+    overflow: hidden;
+    transition: all linear .3s;
+}
+.team_overlay{
+    position: absolute;
+    top: 0;
+    right: -100%;
+    height: 100%;
+    width: 0%;
+    background-color: rgba(0, 0, 0, 0.66);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(0);
+    transition: all linear .3s;
+}
+
+.team_overlay ul{
+    padding-left: 0;
+}
+
+.team_overlay ul li a{
+    height: 40px;
+    width: 40px;
+    border: 2px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    display: block;
+    border-radius: 50%;
+    margin: 20px 0;
+    transition: all linear .3s;
+    
+}
+
+.team_overlay ul li a:hover{
+    background-color: #5bc5f4;
+    
+    border: 2px solid #5bc5f4;
+    transition: all linear .3s;
+}
+
+.team_img:hover .team_overlay{
+    transform: scale(1);
+     width: 38%;
+    right: 0%;
+     transition: all linear .3s;
+}
+.team_title{
+    text-align: center;
+}
+
+.team_title h4{
+     font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 12px;
+    transition: all linear .3s;
+}
+
+.team_main:hover .team_title h4{
+    color: #5bc5f4;
+    transition: all linear .3s;
+}
+/*team part css end*/
+
+/*testimonial part css start*/
+.round_img{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.piramid{
+    height: 40px;
+    width: 40px;
+    background-color: #f1f1f1;
+    position: absolute;
+    top: -8%;
+    left: 47%;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+.testi_content{
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 20px 20px 5px;
+    position: relative;
+}
+.testi_content ul{
+    padding-left: 0;
+}
+.testi_content ul li{
+    display: inline-flex;
+}
+.testi_content h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.testi_content ul li a{
+    color: #5bc5f4;
+}
+
+.testi_content p{
+    font-size: 13px;
+}
+/*testimonial part css end*/
+
+/*foooter part css start*/
+#shupto{
+    background-color: #353535;
+    margin-top: 50px;
+    padding: 20px 0;
+}
+.f_con p{
+    color: white;
+    font-size: 13px;
+    padding-top: 20px;
+}
+
+.footer_common_head h4{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+.f_icon ul{
+    padding-left: 0;
+}
+.f_icon ul li a{
+    height: 40px;
+    width: 40px;
+    background-color: #5bc5f4;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+    display: block;
+    margin-top: 7px;
+}
+
+.f_email p{
+    color: white;
+    font-size: 13px;
+}
+
+.f_menu ul{
+    padding-left: 0;
+}
+.f_menu ul li a{
+    color: white;
+    padding: 4px 0;
+    display: block;
+}
+.f_menu ul li a:hover{
+    color: #5bc5f4;
+}
+
+.f_gly_img{
+    margin-bottom: 19px;
+}
+/*foooter part css end*/
+
+
+
+
+

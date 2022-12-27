@@ -1,0 +1,144 @@
+/*// `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media (min-width: 320px) and (max-width: 575px) { 
+    
+    .welcome p{
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    .icon{
+        display: none;
+    }
+    
+    .navbar-nav{
+        margin-top: 10px;
+    }
+     .navbar-nav .nav-item .nav-link.active,
+    .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        padding: 13px 0;
+        background-color: green;
+        border-bottom: 1px solid white;
+        color: white;
+        color: white;
+    }
+    
+    .banner_content{
+        text-align: center;
+    }
+    
+    
+    .banner_content h1{
+        font-size: 30px;
+    }
+    .xsm_hidden{
+        display: none;
+    }
+
+    .ser_main{
+        margin-top: 60px;
+    }
+    
+    .big_img{
+        margin-bottom: 20px;
+    }
+    .piramid{
+        left: 44%;
+    }
+    
+    .round_img {
+        margin-top: 15px;
+    }
+
+
+    .f_logo{
+        text-align: center;
+    }
+    
+    .footer_common_head{
+        text-align: center;
+    }
+    
+    .f_icon{
+        margin-left: 30px;
+    }
+    
+    .xsm_menu{
+        margin-left: 50px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+/*// `md` applies to small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767px) { 
+ .navbar-nav{
+        margin-top: 10px;
+    }
+     .navbar-nav .nav-item .nav-link.active,
+    .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        padding: 13px 0;
+        background-color: green;
+        border-bottom: 1px solid white;
+        color: white;
+        color: white;
+    }
+    
+    .banner_content{
+        text-align: center;
+    }
+    
+    
+      .ser_main{
+        margin-top: 60px;
+    }
+    
+    
+    
+    
+    .f_logo{
+        text-align: center;
+    }
+    
+    .footer_common_head{
+        text-align: center;
+    }
+    
+    .f_icon{
+        margin-left: 100px;
+    }
+    
+    .xsm_menu{
+        margin-left: 150px;
+    }
+    
+    .xsm_hidden{
+        display: none;
+    }
+    
+
+}
+
+/*// `lg` applies to medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991px) { ... }
+
+/*// `xl` applies to large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199px) { 
+
+
+
+
+
+
+}
+
+/*// `xxl` applies to x-large devices (large desktops, less than 1400px)*/
+@media (max-width: 1399.98px) { ... }
